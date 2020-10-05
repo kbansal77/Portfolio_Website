@@ -185,7 +185,7 @@ ul{
 
 .cards{
     display: grid;
-    grid-template-columns: 50% 0%;
+    grid-template-columns: 50% 50%;
     padding: 30px 20px;
 }
 
@@ -197,7 +197,7 @@ ul{
     border-radius: 10px;
 }
 
-#blog_img{
+.blog_img{
     max-width: 100%;
     min-width: 200px;
 }
@@ -205,4 +205,8 @@ ul{
 footer{
     background-color: #df5d20;
     padding: 20px 30px;
+}
+
+@media(max-width:700px){
+
 }
