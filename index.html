@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Portfolio - Kartik Bansal</title>
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(250)" class="closebtn" onclick="closeNav()">&#9776;</a>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#blogs">Blogs</a>
+            <div id="empty"></div>
+            <div class = "logos">
+                <a href = "https://github.com/kbansal77" class = "logo"><i class='bx bxl-github' ></i></a>
+                <a href="https://medium.com/@kartikbansal2000" class="logo"><i class='bx bxl-medium' ></i></a>
+                <a href="https://www.linkedin.com/in/kartik-bansal-13150818b/" class="logo"><i class='bx bxl-linkedin' ></i></a>
+                <a href="mailto:kartikbansal2000@gmail.com" class="logo"><i class='bx bx-mail-send' ></i></a>
+            </div>
+            <div id="made_by">
+                <i class='bx bx-code-alt'></i> Kartik Bansal</div>
+          </div>
+            <div class = "nav">
+                <span id = "open" onclick="openNav()">&#9776;</span>
+              </div>
+          <div class ="main" onclick="closeNav()">
+            <div class = "section" id="home">
+                <img src="./Main_image.JPG" id="main_img" alt="You Can't See ME">
+                <div class="content">
+                    <span id="greetings">
+                        Namaste, World! I am
+                    </span>
+                    <p id = "kartik">Kartik Bansal</p>
+                    <p class = "dev">I build things for the web.</p>
+                    <p class = "dev">I'm a <a href= "https://github.com/kbansal77">developer</a> and a passionate gamer.</p>
+                    <p class="dev">I enjoy building, learning & exploring things that live on the web.</p>
+                    <p class="dev"> I often write <a href = "https://medium.com/@kartikbansal2000">blogs.</a></p>
+                </div>
+            </div>
+            <div class="section" id ="about" >
+                <img src="./about_image.JPG" alt="Use Better Internet Maybe" id="about_img">
+                <div class="content">
+                    <p class="section_heading">About Me</p>
+                    <p id="about_1">Howdy! I'm Kartik Bansal. 2nd year CSE student & a fullstack developer, who enjoys building, 
+                        learning and exploring things that live on the web.</p>
+                    <p id="about_2">I'm currently a product manager & web developer at <a href="https://www.iotalliance.in/">IoT Alliance. </a></p>
+                    <p id="about_3">Here are a few technologies I love working on:</p>
+                    <ul class="skills">
+                        <li><i class='bx bx-right-arrow-circle' ></i>React JS</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>HTML $ CSS</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>JavaScript</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>Python</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>AWS</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>GCP</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>Flask</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>FastAPI</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section" id="experience">
+                <img src="./exp.jpg" id = "exp_img" alt="">
+                <div class="content">
+                    <p class="section_heading">Experience</p>
+                    <p id="exp_1">
+                        FullStack Developer <a href="https://www.iotalliance.in/">@ Iot Alliance</a>
+                    </p>
+                    <p class="sub_content">
+                        August 2019 - Present
+                    </p>
+                    <p class="sub_content">
+                        Chennai , India
+                    </p>
+                    <ul>
+                        <li><i class='bx bx-right-arrow-circle' ></i>Fullstack Developer in one of the under-development projects.</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>Member of backend team for an upcomig App.</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>Participated in Coding Ninja Coding Competition.</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>Qualified for final round of Progate Week of Learning Competition.</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>Blogs on Coding & Web Development related topics</li>
+                        <li><i class='bx bx-right-arrow-circle' ></i>React JS website for <a href="https://kbansal77.github.io/covid_19website/">Covid-19 tolls</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section" id="blogs">
+                <div class="content">
+                    <p class="section_heading">
+                        Blogs
+                    </p>
+                        <div class = "cards">
+                            <a href="https://medium.com/@kartikbansal2000/using-multiple-charts-in-admin-dashboard-da0938f694b2"><div class="card"><img src="./blog_img.JPG" id="blog_img" alt="Blog on Medium.com"></div></a>
+                            <a href="https://medium.com/@kartikbansal2000/using-multiple-charts-in-admin-dashboard-da0938f694b2"><div class="card"><img src="./blog_img.JPG" id="blog_img" alt="Blog on Medium.com"></div></a>
+                        </div>
+                </div>
+            </div>
+          </div>
+          <footer onclick="closeNav()"></footer>
+          <script src = "index.js"></script>
+    </body>
+</html>

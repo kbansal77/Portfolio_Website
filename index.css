@@ -1,0 +1,208 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+body { 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+#main_img{
+    border-radius: 50%;
+    max-width: 450px;
+    width: auto;
+    min-width: 200px;
+    margin-left: auto;
+}
+
+.space{
+    width: 40%;
+}
+
+.nav{
+    padding: 10px 15px;
+}
+
+#open{
+    font-size:30px;
+    cursor:pointer;
+    color: #df5d20;
+    position: fixed;
+    padding-left: 40px;
+}
+
+#made_by{
+    color: white;
+    text-align: center;
+}
+
+#empty{
+    height: 400px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #df5d20;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 0px 20px;
+  }
+
+.logos{
+    display: flex;
+}
+
+.logo{
+    width: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #df5d20;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+.sidenav a:hover {
+    color: #f79d37;
+  }
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* @media(max-width:) */
+
+.section{
+    /* border: solid #f79d37 1px;*/
+    border-radius: 20px; 
+    flex-direction: column;
+    padding: 30px 20px;
+    margin: 20px 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: #e7c5b6 5px 5px;
+}
+
+#home{
+    border: none;
+    text-align: center;
+    margin: none;
+}
+
+.content{
+    text-align: left;
+    line-height: 2.5em;
+    padding: 0px 50px;
+}
+
+#greetings{
+    font-size: 1em;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    color: #df5d20;
+}
+
+#kartik, .section_heading{
+    font-size: 2.7em;
+    color: #df5d20;
+    font-family: 'Anton', sans-serif;
+}
+
+.dev{
+    font-size: 2em;
+}
+
+#about_img, #exp_img{
+    max-width: 25%;
+    width: auto;
+    min-width: 200px;
+    float: right;
+    border-radius: 10px;
+}
+
+#about_1, #about_2, #about_3, #exp_1{
+    font-size: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.bx-right-arrow-circle{
+    color: #df5d20;
+    padding-right: 2px;
+}
+
+#blogs{
+    box-shadow: none;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 50% 0%;
+    padding: 30px 20px;
+}
+
+.card{
+    box-shadow: #e7c5b6 5px 5px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#blog_img{
+    max-width: 100%;
+    min-width: 200px;
+}
+
+footer{
+    background-color: #df5d20;
+    padding: 20px 30px;
+}
