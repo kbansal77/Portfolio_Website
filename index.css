@@ -174,7 +174,7 @@ ul{
 li{
     display: grid;
     grid-template-columns: 10% 90%;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .bx-right-arrow-circle{
@@ -327,9 +327,18 @@ footer{
         font-size: 20px;
     }
     #exp_content {
-        padding-right: 5%;
+        padding-right: 31%;
     }
     .card{
         margin-bottom: 10px;
+    }
+}
+
+@media(max-width:360px){
+    #exp_content {
+        padding-right: 5%;
+    }
+    .i{
+        padding: 5px 1px;
     }
 }
