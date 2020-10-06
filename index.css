@@ -174,7 +174,6 @@ ul{
 li{
     display: grid;
     grid-template-columns: 10% 90%;
-    /* text-align: justify; */
 }
 
 .bx-right-arrow-circle{
@@ -334,7 +333,7 @@ footer{
     }
 }
 
-@media(max-width:360px){
+@media(max-width:349px){
     #exp_content {
         padding-right: 5%;
     }
