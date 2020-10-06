@@ -35,7 +35,7 @@ html {
     display: flex;
     flex-direction: column;
 }
-/* 
+
 body { 
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
@@ -48,7 +48,7 @@ body {
     100% { 
         opacity: 1; 
     } 
-}  */
+} 
 
 #main_img{
     border-radius: 50%;
