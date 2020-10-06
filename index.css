@@ -110,7 +110,6 @@ a{
   }
 
 .section{
-    /* border: solid #f79d37 1px;*/
     width: 92%;
     flex-wrap: wrap;
     border-radius: 20px; 
@@ -153,7 +152,6 @@ a{
 #about_img, #exp_img{
     max-width: 25%;
     width: auto;
-    /* min-width: 180px; */
     float: right;
     border-radius: 10px;
     margin-left: 10px;
@@ -162,10 +160,6 @@ a{
 .about, #exp_1{
     font-size: 1.5em;
 }
-
-/* #exp_1{
-    padding-right: 10%;
-} */
 
 ul{
     list-style-type: none;
@@ -222,18 +216,13 @@ footer{
     .about, #exp_1{
         font-size: 13px;
     }
-    /* #experience{
 
-    } */
     ul{
         list-style-type: none;
         display: grid;
         grid-template-columns: 45% 45%;
         font-size: 10px;
     }
-    /* .bx-right-arrow-circle{
-        padding:10px 3px;
-    } */
     #about_img, #exp_img{
         width: 180px;
     }
