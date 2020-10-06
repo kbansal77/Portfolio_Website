@@ -71,6 +71,7 @@ body {
 
 .logos{
     display: flex;
+    margin: 10px 0;
 }
 
 .logo{
@@ -140,6 +141,7 @@ a{
 
 .section_heading{
     font-size: 2.7em;
+    margin-bottom: 10px;
     color: #df5d20;
     font-family: 'Anton', sans-serif;
 }
