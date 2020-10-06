@@ -11,12 +11,12 @@
     </head>
     <body>
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(250)" class="closebtn" onclick="closeNav()">&#9776;</a>
-            <a href="#home">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#experience">Experience</a>
-            <a href="#blogs">Blogs</a>
-            <!-- <div id="empty"></div> -->
+            <div>
+                <a href="javascript:void(250)" class="closebtn ac" onclick="closeNav()">&#9776;</a>
+            <a class ="ac" href="#home">Home</a>
+            <a class ="ac"href="#about">About Me</a>
+            <a class ="ac"href="#experience">Experience</a>
+            <a class ="ac"href="#blogs">Blogs</a>
             <div class = "logos">
                 <a href = "https://github.com/kbansal77" class = "logo"><i class='bx bxl-github' ></i></a>
                 <a href="https://medium.com/@kartikbansal2000" class="logo"><i class='bx bxl-medium' ></i></a>
@@ -25,6 +25,7 @@
             </div>
             <div id="made_by">
                 <i class='bx bx-code-alt'></i> Kartik Bansal</div>
+            </div>
           </div>
             <div class = "nav">
                 <span id = "open" onclick="openNav()">&#9776;</span>
@@ -101,5 +102,10 @@
           </div>
           <footer onclick="closeNav()"></footer>
           <script src = "index.js"></script>
+          <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+          <script>
+            particlesJS.load('particles-js', 'particles.json');
+          </script>
     </body>
+    <div id="particles-js"></div> 
 </html>
