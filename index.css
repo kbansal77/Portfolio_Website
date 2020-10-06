@@ -332,6 +332,7 @@ footer{
     #open{
         padding-left: 0;
         font-size:20px;
+        position: fixed;
     }
     .sidenav a{
         font-size: 20px;
