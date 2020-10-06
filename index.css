@@ -6,26 +6,6 @@ form, input, div {
   padding: 0;
 }
 
-/* @media screen and (max-width:800px){
-    .content{
-        text-align: left;
-        line-height: 2em;
-        padding: 0px 50px;
-    }
-} */
-
-/* @media(max-width:280px){
-    .main{
-        padding: 5px 5px;
-        display: flex;
-        flex-direction: column;
-    }
-    .section{
-        padding: 10px 5px;
-        margin: 5px 5px;
-    }
-} */
-
 html {
     scroll-behavior: smooth;
 }
@@ -299,6 +279,15 @@ footer{
     .about, #exp_1{
         font-size: 13px;
     }
+    #exp_img{
+        margin-left: 0;
+    }
+    #exp_content{
+        padding-right: 20%;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
 }
 
 @media(max-width:500px){
@@ -333,5 +322,14 @@ footer{
     #open{
         padding-left: 0;
         font-size:20px;
+    }
+    .sidenav a{
+        font-size: 20px;
+    }
+    #exp_content {
+        padding-right: 5%;
+    }
+    .card{
+        margin-bottom: 10px;
     }
 }
