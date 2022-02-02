@@ -12,3 +12,16 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+const close = document.getElementsByClassName("ac");
+
+for(let i = 0; i < close.length; i++) {
+  close[i].addEventListener("click", function() {
+    closeNav();
+  })
+}
+
+// close.addEventListener("click", ()=>{
+//   console.log("rrr")
+//   closeNav()
+// })
