@@ -478,6 +478,7 @@ input:checked[type = checkbox]:hover::after{
 
 .name {
     font-weight: 600;
+    color: black;
     font-size: 1.25rem;
 }
 
