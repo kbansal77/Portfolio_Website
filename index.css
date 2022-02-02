@@ -673,9 +673,6 @@ a {
         flex-direction: column;
         gap: 2rem
     }
-}
-
-@media screen and (max-width:376px) {
     .card{
         display: flex;
         flex-direction: column-reverse;
@@ -685,3 +682,4 @@ a {
         max-height: 15vh;
     }
 }
+
