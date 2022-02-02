@@ -320,6 +320,7 @@ input:checked[type = checkbox]:hover::after{
     width: 100%;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.15rem;
     gap: 1rem;
 }
 
