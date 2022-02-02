@@ -1,115 +1,889 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="icon" href="./code-alt-regular-24.png">
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="icon" href="./code-alt-regular-24.png" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
         <title>Portfolio - Kartik Bansal</title>
     </head>
-    <body class="dark">
+    <body>
         <div id="mySidenav" class="sidenav">
             <div>
-                <a href="javascript:void(250)" class="closebtn ac" onclick="closeNav()">&#9776;</a>
-            <a class ="ac" href="#home">Home</a>
-            <a class ="ac"href="#about">About Me</a>
-            <a class ="ac"href="#experience">Experience</a>
-            <a class ="ac"href="#blogs">Blogs</a>
-            <div class = "logos">
-                <a href = "https://github.com/kbansal77" class = "logo"><i class='bx bxl-github' ></i></a>
-                <a href="https://medium.com/@kartikbansal2000" class="logo"><i class='bx bxl-medium' ></i></a>
-                <a href="https://www.linkedin.com/in/kartik-bansal-13150818b/" class="logo"><i class='bx bxl-linkedin' ></i></a>
-                <a href="mailto:kartikbansal2000@gmail.com" class="logo"><i class='bx bx-mail-send' ></i></a>
+                <a
+                    href="javascript:void(250)"
+                    class="closebtn ac"
+                    onclick="closeNav()"
+                    >&#9776;</a
+                >
+                <a class="ac" href="#home">Home</a>
+                <a class="ac" href="#about">About Me</a>
+                <a class="ac" href="#experience">Experience</a>
+                <a class="ac" href="#projects">Projects</a>
+                <a class="ac" href="#skills">Skills</a>
+                <a class="ac" href="#achievements">Achievements</a>
+                <a class="ac" href="#blogs">Blogs</a>
+                <div class="logos">
+                    <a
+                        href="https://github.com/kbansal77"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="logo"
+                        ><i class="bx bxl-github"></i
+                    ></a>
+                    <a
+                        href="https://medium.com/@kartikbansal2000"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="logo"
+                        ><i class="bx bxl-medium"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/kartik-bansal-13150818b/"
+                        class="logo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bx bxl-linkedin"></i
+                    ></a>
+                    <a
+                        href="mailto:kartikbansal2000@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="logo"
+                        ><i class="bx bx-mail-send"></i
+                    ></a>
+                </div>
+                <div id="made_by">
+                    <i class="bx bx-code-alt"></i> Kartik Bansal
+                </div>
             </div>
-            <div id="made_by">
-                <i class='bx bx-code-alt'></i> Kartik Bansal</div>
-            </div>
-          </div>
-            <div class = "nav">
-                <span id = "open" onclick="openNav()">&#9776;</span>
-                <div class="center">
+        </div>
+        <div class="nav">
+            <span id="open" onclick="openNav()">&#9776;</span>
+            <!-- <div class="center">
                     <input data-tooltip="Change Mode" type="checkbox" id="checkbox">
+                </div> -->
+        </div>
+        <div class="main" onclick="closeNav()">
+            <div id="home">
+                <div id="des">
+                    <span style="color: #df5d20">Namaste, World! I am</span>
+                    <span
+                        style="
+                            font-weight: bold;
+                            color: #df5d20;
+                            font-size: 1.75rem;
+                        "
+                        >Kartik Bansal</span
+                    >
+                    <span>I build things for the web.</span>
+                    <span>I'm a developer and a passionate gamer.</span>
+                    <span
+                        >I enjoy building, learning & exploring things that live
+                        on the web.</span
+                    >
+                    <span>I often write blogs.</span>
                 </div>
-              </div>
-          <div class ="main" onclick="closeNav()">
-            <div class = "section" id="home">
-                <img src="./Main_image.JPG" id="main_img" alt="You Can't See ME">
-                <div class="content">
-                    <span id="greetings">
-                        Namaste, World! I am
-                    </span>
-                    <p class="section_heading">Kartik Bansal</p>
-                    <p class = "dev">I build things for the web.</p>
-                    <p class = "dev">I'm a <a href= "https://github.com/kbansal77">developer</a> and a passionate gamer.</p>
-                    <p class="dev">I enjoy building, learning & exploring things that live on the web.</p>
-                    <p class="dev"> I often write <a href = "https://medium.com/@kartikbansal2000">blogs.</a></p>
-                </div>
+
+                <img id="headimg" src="Mainimg.svg" alt="Try Reloading" />
             </div>
-            <div class="section" id ="about" >
-                <img src="./about_image.JPG" alt="Use Better Internet Maybe" id="about_img">
-                <div class="content">
-                    <p class="section_heading">About Me</p>
-                    <p class="about">Howdy! I'm Kartik Bansal. 3rd year CSE student & a fullstack developer, who enjoys building, 
-                        learning and exploring things that live on the web.</p>
-                    <p class="about">I'm currently a product manager & web developer at <a href="https://www.iotalliance.in/">IoT Alliance. </a></p>
-                    <p class="about">Here are a few technologies I love working on:</p>
-                    <ul class="skills">
-                        <li><i class='bx bx-right-arrow-circle i' ></i>React JS</li>
-                        <li><i class='bx bx-right-arrow-circle i' ></i>HTML $ CSS</li>
-                        <li><i class='bx bx-right-arrow-circle i' ></i>JavaScript</li>
-                        <li><i class='bx bx-right-arrow-circle i' ></i>Python</li>
-                        <li><i class='bx bx-right-arrow-circle i' ></i>AWS</li>
-                        <li><i class='bx bx-right-arrow-circle i' ></i>GCP</li>
-                        <li><i class='bx bx-right-arrow-circle i' ></i>Flask</li>
-                        <li><i class='bx bx-right-arrow-circle i' ></i>FastAPI</li>
-                    </ul>
+
+            <div class="sector" id="about" style="background-color: #f3f3f3">
+                <div class="vertxt" style="color: rgba(223, 93, 32, 0.1)">
+                    About Me
                 </div>
-            </div>
-            <div class="section" id="experience">
-                <img src="./exp.jpg" id = "exp_img" alt="">
-                <div class="content" id="exp_content">
-                    <p class="section_heading">Experience</p>
-                    <p id="exp_1">
-                        Technical Lead <a href="https://www.iotalliance.in/">@ Iot Alliance</a>
-                    </p>
-                    <p class="sub_content">
-                        June 2021 - Present
-                    </p>
-                    <p class="sub_content">
-                        Chennai , India
-                    </p>
-                    <ul class="exp_ul">
-                        <li class="exp"><i class='bx bx-right-arrow-circle' ></i>Fullstack Developer in one of the under-development projects.</li>
-                        <li class="exp"><i class='bx bx-right-arrow-circle' ></i>Member of backend team for an upcoming App.</li>
-                        <li class="exp"><i class='bx bx-right-arrow-circle' ></i><div>
-                            <a href="https://medium.com/@kartikbansal2000">Blogs </a>on Coding & Web Development related topics
-                        </div></li>
-                        <li class="exp"><i class='bx bx-right-arrow-circle' ></i><div>
-                            React JS website for <a href="https://kbansal77.github.io/covid_19website/">Covid-19 tolls</a></div></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="section" id="blogs">
-                <div class="content">
-                    <p class="section_heading">
-                        Blogs
-                    </p>
-                        <div class = "cards">
-                            <a href="https://medium.com/@kartikbansal2000/using-multiple-charts-in-admin-dashboard-da0938f694b2"><img src="./blog_img.JPG" class="blog_img card" alt="Blog on Medium.com"></a>
-                            <a href="https://medium.com/@kartikbansal2000/using-multiple-charts-in-admin-dashboard-da0938f694b2"><img src="./blog_img.JPG" class="blog_img card" alt="Blog on Medium.com"></a>
+                <div class="section">
+                    <span class="heading" style="color: #746565"
+                        >Know Me More</span
+                    >
+                    <div class="abtme-content">
+                        <div class="imganimate">
+                            <!-- <div class="back">
+                                <div class="ele" id="code">
+                                    <img src="code.png" />
+                                </div>
+
+                                <div class="ele" id="game">
+                                    <img src="game.png" />
+                                </div>
+
+                                <div class="ele" id="type">
+                                    <img src="type.png" />
+                                </div>
+
+                                <div class="ele" id="bball">
+                                    <img src="bball.png" />
+                                </div>
+                            </div> -->
+                            <img
+                                src="abtmeimg.png"
+                                class="abtresponsiveimg"
+                                alt="Know me more"
+                            />
                         </div>
+
+                        <div class="abtme-txt">
+                            <p>
+                                I am a Full Stack Web Developer & UI/UX
+                                Designer.
+                            </p>
+                            <p>
+                                I am pursuing B.Tech in Computer Science &
+                                Engineering from SRM IST, and my primary focus
+                                and inspiration for my studies is Full Stack Web
+                                Development & UI/UX Design.
+                            </p>
+                            <p>
+                                In my free time, I play basketball and online
+                                video games. I am both self-driven and
+                                self-motivated, and I am constantly
+                                experimenting with new technologies and
+                                techniques. I also like to write tech blogs to
+                                help the web developer community, find better
+                                solution.
+                            </p>
+                            <p>
+                                I am very passionate about Web Development, and
+                                strive to better myself as a developer, and the
+                                development community as a whole.
+                            </p>
+                            <a
+                                href="https://drive.google.com/file/d/1AcTYOR9l7q5cX7RpUz_Gx_PpljrIbgGJ/view?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div class="resume">
+                                    <i class="bx bx-file"></i
+                                    ><span>View Resume</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-          <footer onclick="closeNav()"></footer>
-          <script src = "index.js"></script>
-          <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-          <script>
-            particlesJS.load('particles-js', 'particles.json');
-          </script>
+            <div
+                class="sector"
+                id="experience"
+                style="background-color: #ff9462"
+            >
+                <div class="vertxt" style="color: rgba(225, 225, 225, 0.1)">
+                    Work Experience
+                </div>
+                <div class="section">
+                    <span class="heading" style="color: #ffffff"
+                        >Believes In Teamwork</span
+                    >
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-heading">
+                                Samsung Prism, Virtual
+                            </span>
+                            <div class="card-subheading">
+                                <span class="role"> Research Intern </span>
+                                <span class="date"> Jan 2022 - Present </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Researching on IoT Device Proximity
+                                        Detection.
+                                    </li>
+                                    <li>
+                                        Developing an andrioid SDK for the same
+                                        under the guidance of Samsung Chief
+                                        Engineers
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img
+                                class="comp-logo"
+                                src="prism.png"
+                                alt="Samsung Prism"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-heading">
+                                Cornerstone Business Consultant, Virtual
+                            </span>
+                            <div class="card-subheading">
+                                <span class="role"> Full Stack Intern </span>
+                                <span class="date"> Aug 2021 - Nov 2021 </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Designing and developing scalable web
+                                        application as defined by CBC Tech team.
+                                    </li>
+                                    <li>
+                                        Identify issues during development and
+                                        plan to sort them out with support of
+                                        CBC Tech team
+                                    </li>
+                                    <li>
+                                        Developed Admin Dashboard for 2
+                                        projects.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img
+                                class="comp-logo"
+                                src="cbc.svg"
+                                alt="Samsung Prism"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-heading">
+                                IoT Allaince, SRM
+                            </span>
+                            <div class="card-subheading">
+                                <span class="role"> Technical Lead </span>
+                                <span class="date"> Jun 2021 - Oct 2021 </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Conduct day-to-day project coordination,
+                                        planning, and implementation across
+                                        multiple teams.
+                                    </li>
+                                    <li>
+                                        Reviewing & mentoring all ongoing
+                                        projects. Provide technical assistance
+                                        to peers in workshops, events and
+                                        competitions conducted by IoT Alliance.
+                                    </li>
+                                    <li>
+                                        Developed Frontend for a resume ranking
+                                        project.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-subheading">
+                                <span class="role">
+                                    Lead Fullstack Developer
+                                </span>
+                                <span class="date"> Oct 2020 - Jun 2021 </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Develop projects on wide technology
+                                        stacks. Create functional and technical
+                                        application documents.
+                                    </li>
+                                    <li>
+                                        Brainstorming and planning new upcoming
+                                        projects. Provide technical assistance
+                                        to peers in case of a bug.
+                                    </li>
+                                    <li>
+                                        Created backend for an IoT and Embedded
+                                        Systems resource app.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-subheading">
+                                <span class="role"> Developer </span>
+                                <span class="date"> Jul 2019 - Sep 2020 </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Developing an admin dashboard for a
+                                        product prototype.
+                                    </li>
+                                    <li>
+                                        Understanding and exploring the field of
+                                        web development.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img
+                                class="comp-logo"
+                                src="iota.svg"
+                                alt="Samsung Prism"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-heading">
+                                Weber Mobility AB, Sweden, Virtual
+                            </span>
+                            <div class="card-subheading">
+                                <span class="role">
+                                    Backend Developer Intern
+                                </span>
+                                <span class="date"> Nov 2020 - Mar 2021 </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Made the backend for the Weber One
+                                        project, an IoT-based electric scooter
+                                        meant for university / office campuses.
+                                    </li>
+                                    <li>
+                                        Worked on DBMS, cloud functions and
+                                        geofencing.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img
+                                class="comp-logo"
+                                src="wbr.svg"
+                                alt="Samsung Prism"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-heading">
+                                Healings, Chennai, Virtual
+                            </span>
+                            <div class="card-subheading">
+                                <span class="role">
+                                    Frontend Developer Intern
+                                </span>
+                                <span class="date"> Jan 2021 - Jul 2020 </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Developing online mental healthcare
+                                        services platform from scratch using
+                                        ReactJS.
+                                    </li>
+                                    <li>
+                                        Lead the frontend team and built MVP .
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card-subheading">
+                                <span class="role">
+                                    UI/UX Designer Intern
+                                </span>
+                                <span class="date"> Nov 2020 - Dec 2020 </span>
+                            </div>
+                            <div class="respon">
+                                <span> Responsibilities: </span>
+                                <ul>
+                                    <li>
+                                        Designing online healthcare services web
+                                        application.
+                                    </li>
+                                    <li>
+                                        Deciding and planning workflow for phase
+                                        1 of the MVP.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img
+                                class="comp-logo"
+                                src="heal.svg"
+                                alt="Samsung Prism"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sector" id="projects" style="background-color: #efefef">
+                <div class="vertxt" style="color: rgba(223, 93, 32, 0.1)">
+                    Projects
+                </div>
+                <div class="section">
+                    <span class="heading" style="color: #746565"
+                        >Loves To Develop</span
+                    >
+                    <div class="project">
+                        <div class="project-img">
+                            <img
+                                src="visionx.svg"
+                                style="width: 100%"
+                                alt="visionx"
+                            />
+                        </div>
+                        <div class="project-content">
+                            <span class="project-heading">
+                                VisionX - Follow The Trend
+                            </span>
+                            <div class="project-des">
+                                <p>
+                                    Twitter Bot for providing similar Fashion
+                                    products’ recommendations just by commenting
+                                    on a tweet of your favorite Influencer with
+                                    #myntra_discover. Get Reply to the tweet and
+                                    top 3 recommendations with brand, sizes,
+                                    MRP/price, image etc. over Notifications.
+                                </p>
+                            </div>
+                            <div class="ts">
+                                <img src="twitter.svg" alt="twitter" />
+                                <img src="node.svg" alt="nodejs" />
+                                <img src="ximilar.svg" alt="ximilar" />
+                                <img src="mongo.svg" alt="mongodb" />
+                            </div>
+                            <div class="buttons">
+                                <a
+                                    href="https://github.com/ankithans/VisionX"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <div class="button">
+                                        <i class="bx bxl-github"></i
+                                        ><span>View Github Repo</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <img
+                                src="collab.PNG"
+                                style="width: 100%"
+                                alt="visionx"
+                            />
+                        </div>
+                        <div class="project-content">
+                            <span class="project-heading">
+                                Collab - Connect, Collab, Create
+                            </span>
+                            <div class="project-des">
+                                <p>
+                                    Started as a course project. Collab is a
+                                    website which connects students of SRM and
+                                    find teammates for a project, hackathon or
+                                    for their startup. Now, the project will be
+                                    rebuilt with better frameworks and features
+                                    making it accessible to 1k+ engineering
+                                    colleges across India.
+                                </p>
+                            </div>
+                            <div class="ts">
+                                <img src="expressjs.svg" alt="twitter" />
+                                <img src="node.svg" alt="nodejs" />
+                                <img src="reactjs.svg" alt="ximilar" />
+                                <img src="mongo.svg" alt="mongodb" />
+                            </div>
+                            <div class="buttons">
+                                <a
+                                    href="https://github.com/kbansal77/collab-frontend"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <div class="button">
+                                        <i class="bx bxl-github"></i
+                                        ><span>View Github Repo</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <img
+                                src="aadhar.svg"
+                                style="width: 100%"
+                                alt="visionx"
+                            />
+                        </div>
+                        <div class="project-content">
+                            <span class="project-heading">
+                                Aadhar Address Update Platform
+                            </span>
+                            <div class="project-des">
+                                <p>
+                                    A Platform (Website & App) that uses Aadhar
+                                    APIs provided during Aadhar Hackathon 2021
+                                    to updated tenet's address to landlord's
+                                    address by requesting landlord for the same.
+                                </p>
+                            </div>
+                            <div class="ts">
+                                <img src="fastapi.svg" alt="twitter" />
+                                <img src="firebase.svg" alt="nodejs" />
+                                <!-- <img src="ximilar.svg" alt="ximilar" /> -->
+                                <img src="mongo.svg" alt="mongodb" />
+                            </div>
+                            <div class="buttons">
+                                <a
+                                    href="https://github.com/ankithans/aadhaar-address-update"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <div class="button">
+                                        <i class="bx bxl-github"></i
+                                        ><span>View Github Repo</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <img
+                                src="test.PNG"
+                                style="width: 100%"
+                                alt="visionx"
+                            />
+                        </div>
+                        <div class="project-content">
+                            <span class="project-heading">
+                                Mailman - Mass Scheduled Mailing Platform
+                            </span>
+                            <div class="project-des">
+                                <p>
+                                    A website that can be used to send scheduled
+                                    emails. User can decide time and date to
+                                    schedule the mails and repeat the schedule
+                                    every month and year.
+                                </p>
+                            </div>
+                            <div class="ts">
+                                <img src="expressjs.svg" alt="twitter" />
+                                <img src="node.svg" alt="nodejs" />
+                                <img src="react.png" alt="ximilar" />
+                                <img src="mongo.svg" alt="mongodb" />
+                            </div>
+                            <div class="buttons">
+                                <a
+                                    href="https://github.com/kbansal77/Mailman"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <div class="button">
+                                        <i class="bx bxl-github"></i
+                                        ><span>View Github Repo</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sector" id="skills" style="background-color: #f3f3f3">
+                <div class="vertxt" style="color: rgba(223, 93, 32, 0.1)">
+                    Skill Summary
+                </div>
+                <div class="section">
+                    <span class="heading" style="color: #746565"
+                        >Likes To Learn</span
+                    >
+                    <div class="tech">
+                        <div class="tech-cat">
+                            <span class="tech-cat-heading">
+                                Frontend Technologies
+                            </span>
+                        </div>
+                        <div class="tech-stacks">
+                            <div class="tech-stack">
+                                <img
+                                    src="html.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>HTML</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="css.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>CSS</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="js.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>Javascript</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="reactjs.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>ReactJS</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="bootstrap.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="mui.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>Material UI</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-cat">
+                            <span class="tech-cat-heading">
+                                Backend Technologies
+                            </span>
+                        </div>
+                        <div class="tech-stacks">
+                            <div class="tech-stack">
+                                <img
+                                    src="fastapi.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>FasAPI</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="node.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>NodeJS</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="expressjs.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>ExpressJS</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="mongo.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="dynamodb.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>DynamoDB</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="firebase.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>Firebase</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-cat">
+                            <span class="tech-cat-heading"> UI/UX Tools </span>
+                        </div>
+                        <div
+                            class="tech-stacks"
+                            style="justify-content: center; gap: 1rem"
+                        >
+                            <div class="tech-stack">
+                                <img
+                                    src="figma.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>Figma</span>
+                            </div>
+                            <div class="tech-stack">
+                                <img
+                                    src="Adobe.svg"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span>AdobeXD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="sector"
+                id="achievements"
+                style="background-color: #ff9462"
+            >
+                <div class="vertxt" style="color: rgba(225, 225, 225, 0.1)">
+                    Achievements
+                </div>
+                <div class="section">
+                    <span class="heading" style="color: #ffffff"
+                        >Likes To Compete</span
+                    >
+                    <div class="achievs">
+                        <div class="achievs-card">
+                            <img src="myntra.jpg" alt="" />
+                            <span class="name">
+                                Myntra HackerRamp: Campus Edition 2021
+                            </span>
+                            <span class="position"> Second Runner-up </span>
+                        </div>
+
+                        <div class="achievs-card">
+                            <img src="uidai.jpg" alt="" />
+                            <span class="name">
+                                UIDAI Aadhar Hackathon 2021
+                            </span>
+                            <span class="position"> Winner (Theme 1) </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sector" id="blogs" style="background-color: #efefef">
+                <div class="vertxt" style="color: rgba(223, 93, 32, 0.1)">
+                    Blogs
+                </div>
+                <div class="section">
+                    <span class="heading" style="color: #746565"
+                        >Often Write Blogs</span
+                    >
+                    <div class="achievs">
+                        <a
+                            href="https://medium.com/@kartikbansal2000/extracting-text-from-base64-encrypted-pdf-b6f138d73851"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <div class="achievs-card">
+                                <img
+                                    src="extract_blog.jfif"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+                                <span class="name">
+                                    Extracting Text From Base64 Encrypted PDF
+                                </span>
+                                <span class="position">
+                                    Published on Jul 29, 2021
+                                </span>
+                            </div>
+                        </a>
+
+                        <a
+                            href="https://medium.com/@kartikbansal2000/using-multiple-charts-in-admin-dashboard-da0938f694b2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <div class="achievs-card">
+                                <img
+                                    src="admin.png"
+                                    class="responsiveimg"
+                                    alt=""
+                                />
+
+                                <span class="name">
+                                    Using Multiple charts in Admin Dashboard
+                                </span>
+                                <span class="position"
+                                    >Published on Sep 27, 2020
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="footer">
+                    <div class="contact">
+                        <a
+                            href="https://github.com/kbansal77"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            ><i class="bx bxl-github bx-lg footer-logo"></i
+                        ></a>
+                    </div>
+                    <div class="contact">
+                        <a
+                            href="https://medium.com/@kartikbansal2000"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            ><i class="bx bxl-medium bx-lg"></i
+                        ></a>
+                    </div>
+                    <div class="contact">
+                        <a
+                            href="https://www.linkedin.com/in/kartik-bansal-13150818b/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            ><i class="bx bxl-linkedin"></i
+                        ></a>
+                    </div>
+                    <div class="contact">
+                        <a
+                            href="mailto:kartikbansal2000@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            ><i class="bx bx-mail-send"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <footer onclick="closeNav()"></footer> -->
+        <script src="index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
-    <div id="particles-js"></div> 
+    <!-- <div id="particles-js"></div>  -->
 </html>
