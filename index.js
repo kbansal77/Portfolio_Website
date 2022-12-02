@@ -21,7 +21,8 @@ for(let i = 0; i < close.length; i++) {
   })
 }
 
-// close.addEventListener("click", ()=>{
-//   console.log("rrr")
-//   closeNav()
-// })
+close.addEventListener("click", ()=>{
+  console.log("rrr")
+  closeNav()
+})
+
